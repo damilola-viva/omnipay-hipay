@@ -1,0 +1,37 @@
+{
+  "name": "damilola-viva/omnipay-hipay",
+  "type": "library",
+  "description": "Hipay driver for the Omnipay payment processing library",
+  "keywords": [
+    "hipay",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment"
+  ],
+  "homepage": "https://github.com/damilola-viva/omnipay-noire",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Hipay\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^v2.5.1"
+  },
+  "require-dev": {
+    "guzzle/plugin-mock": "~3.1",
+    "mockery/mockery": "~0.8",
+    "omnipay/tests": "2.1.0",
+    "phpunit/phpunit": "~3.7.16",
+    "squizlabs/php_codesniffer": "~1.5"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
